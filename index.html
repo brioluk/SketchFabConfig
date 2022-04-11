@@ -2,89 +2,13 @@
 <html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sketchfab Configurator</title>
-    <link rel="stylesheet" href="./styles.css">
 </head>
 
 <body>
-    <div class="app">
-        <iframe src="" id="api-frame" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="vr" width="640"
-            height="400"></iframe>
-        <div class="options"></div>
-    </div>
+    
+    <div class="sketchfab-embed-wrapper"> <iframe title="Ellesse_EL01W50420_Retopology_06c" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/98d71c9460624034b0ce44fc86e260ca/embed"> </iframe> <p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;"> <a href="https://sketchfab.com/3d-models/ellesse-el01w50420-retopology-06c-98d71c9460624034b0ce44fc86e260ca?utm_medium=embed&utm_campaign=share-popup&utm_content=98d71c9460624034b0ce44fc86e260ca" target="_blank" style="font-weight: bold; color: #1CAAD9;"> Ellesse_EL01W50420_Retopology_06c </a> by <a href="https://sketchfab.com/LooksRealStudio?utm_medium=embed&utm_campaign=share-popup&utm_content=98d71c9460624034b0ce44fc86e260ca" target="_blank" style="font-weight: bold; color: #1CAAD9;"> Looks Real Studio </a> on <a href="https://sketchfab.com?utm_medium=embed&utm_campaign=share-popup&utm_content=98d71c9460624034b0ce44fc86e260ca" target="_blank" style="font-weight: bold; color: #1CAAD9;">Sketchfab</a></p></div>
+    
 </body>
-
-<script type="text/javascript" src="https://static.sketchfab.com/api/sketchfab-viewer-1.3.2.js"></script>
-<script type="text/javascript" src="./SketchfabConfigurator-1.0.6.js"></script>
-<script type="text/javascript">
-    var config = {
-    "model": "98d71c9460624034b0ce44fc86e260ca",
-    "params": {
-        "camera": 0,
-        "preload": 1,
-        "ui_controls": 0,
-        "ui_infos": 0,
-        "ui_watermark": 0
-    },
-    "config": [
-        {
-            "name": "Element Front",
-            "type": "color",
-            "material": "Element_Front",
-            "default": "#FFFFFF",
-            "options": [
-                {
-                    "name": "white",
-                    "color": "#ff0000",
-                    "id": 1649491623246
-                },
-                {
-                    "name": "white",
-                    "color": "#1100ff",
-                    "id": 1649491623246
-                },
-                {
-                    "name": "white",
-                    "color": "#00ff1e",
-                    "id": 1649491623246
-                },
-                {
-                    "name": "white",
-                    "color": "#ffea00",
-                    "id": 1649491623246
-                }
-            ]
-        },
-        {
-            "name": "Body Extern",
-            "type": "color",
-            "material": "Body_Extern",
-            "default": "#FFFFFF",
-            "options": [
-                {
-                    "name": "white",
-                    "color": "#0400ff",
-                    "id": 1649491666829
-                },
-                {
-                    "name": "white",
-                    "color": "#ff0000",
-                    "id": 1649491666829
-                },
-                {
-                    "name": "white",
-                    "color": "#00ff1e",
-                    "id": 1649491666829
-                }
-            ]
-        }
-    ]
-};
-    var iframeEl = document.getElementById('api-frame');
-    var optionsEl = document.querySelector('.options');
-    var configurator = new SketchfabConfigurator.Configurator(iframeEl, optionsEl, config);
-</script>
-
+    
 </html>
